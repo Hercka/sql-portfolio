@@ -21,7 +21,7 @@ sql-portfolio/
 ├── level-02-aggregation/              ← GROUP BY, aggregate functions (SUM, COUNT, AVG)
 ├── level-03-joins/                    ← INNER/LEFT JOIN across multiple tables
 ├── level-04-advanced/                 ← HAVING, multi-table JOINs, subqueries
-├── level-05-window-functions/         ← DENSE_RANK, ROW_NUMBER, PARTITION BY, CTEs
+├── level-05-window-functions/         ← Moving MAX/AVG, ROW_NUMBER, CTEs; RANK, DENSE_RANK, PARTITION BY
 ├── level-06-case-segmentation/        ← CASE WHEN for customer segmentation
 ├── level-07-date-analysis/            ← Date functions, EXTRACT, TO_CHAR, cohort patterns
 └── level-08-running-totals/           ← Cumulative sums, running totals with window functions
@@ -59,11 +59,11 @@ Full schema: [PostgreSQL Tutorial — dvdrental ER Diagram](https://www.postgres
 
 | Level | Topic                          | Status |
 |-------|--------------------------------|--------|
-| 01    | Basics (SELECT, ORDER, LIMIT)  | ⬜     |
+| 01    | Basics (SELECT, ORDER, LIMIT)  | ✅     |
 | 02    | Aggregation (GROUP BY)         | ⬜     |
 | 03    | Joins (INNER, LEFT, multi)     | ⬜     |
 | 04    | Advanced (HAVING, subqueries)  | ⬜     |
-| 05    | Window Functions (DENSE_RANK)  | ⬜     |
+| 05    | Window Functions (moving MAX/AVG, CTE) | 🟡 (in progress) |
 | 06    | Segmentation (CASE WHEN)       | ⬜     |
 | 07    | Date Analysis                  | ⬜     |
 | 08    | Running Totals                 | ⬜     |
