@@ -63,8 +63,8 @@ Full schema: [PostgreSQL Tutorial — dvdrental ER Diagram](https://www.postgres
 | 02    | Aggregation (GROUP BY)         | ⬜     |
 | 03    | Joins (INNER, LEFT, multi)     | ⬜     |
 | 04    | Advanced (HAVING, subqueries)  | ⬜     |
-| 05    | Window Functions (moving MAX/AVG, CTE) | 🟡 (in progress) |
-| 06    | Segmentation (CASE WHEN)       | ⬜     |
+| 05    | Window Functions (moving MAX/AVG, CTE) | ✅     |
+| 06    | Segmentation (CASE WHEN)       | ✅     |
 | 07    | Date Analysis                  | ⬜     |
 | 08    | Running Totals                 | ⬜     |
 
