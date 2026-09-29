@@ -60,7 +60,7 @@ Full schema: [PostgreSQL Tutorial — dvdrental ER Diagram](https://www.postgres
 | Level | Topic                          | Status |
 |-------|--------------------------------|--------|
 | 01    | Basics (SELECT, ORDER, LIMIT)  | ✅     |
-| 02    | Aggregation (GROUP BY)         | ⬜     |
+| 02    | Aggregation (GROUP BY)         | ✅     |
 | 03    | Joins (INNER, LEFT, multi)     | ⬜     |
 | 04    | Advanced (HAVING, subqueries)  | ⬜     |
 | 05    | Window Functions (moving MAX/AVG, CTE) | ✅     |
